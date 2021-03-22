@@ -1,0 +1,9 @@
+how are you
+hey alert
+hi alert
+open google
+what is my name
+what is the weather today
+what is the time right now
+close
+exit
