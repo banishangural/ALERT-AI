@@ -9,3 +9,6 @@ An AI software which can control and execute commands given by the user through 
 1. C#
 2. Window Forms
 3. Window Speech Synthesis
+
+## Registered Commands (To add more, add them to commands.txt file)
+1. 
