@@ -36,9 +36,10 @@ namespace ALERT_AI
             // 
             // Speak_Button
             // 
+            this.Speak_Button.AutoSize = true;
             this.Speak_Button.BackColor = System.Drawing.Color.Red;
             this.Speak_Button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Speak_Button.Location = new System.Drawing.Point(120, 339);
+            this.Speak_Button.Location = new System.Drawing.Point(145, 440);
             this.Speak_Button.Name = "Speak_Button";
             this.Speak_Button.Size = new System.Drawing.Size(130, 52);
             this.Speak_Button.TabIndex = 1;
@@ -49,10 +50,11 @@ namespace ALERT_AI
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox1.Image = global::ALERT_AI.Properties.Resources.alberta;
-            this.pictureBox1.Location = new System.Drawing.Point(30, 12);
+            this.pictureBox1.Image = global::ALERT_AI.Properties.Resources.open_graph;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(308, 321);
+            this.pictureBox1.Size = new System.Drawing.Size(400, 400);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
@@ -60,7 +62,9 @@ namespace ALERT_AI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(365, 450);
+            this.AutoSize = true;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.ClientSize = new System.Drawing.Size(422, 516);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Speak_Button);
             this.Name = "Alert_AI";
@@ -68,6 +72,7 @@ namespace ALERT_AI
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
