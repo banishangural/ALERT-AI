@@ -11,4 +11,12 @@ An AI software which can control and execute commands given by the user through 
 3. Window Speech Synthesis
 
 ## Registered Commands (To add more, add them to commands.txt file)
-1. 
+1. How are you?
+2. Hey alert
+3. Hi alert
+4. Open google
+5. What is my name
+6. What is the weather today
+7. What is the time right now
+8. Close
+9. Exit
